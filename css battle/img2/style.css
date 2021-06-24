@@ -1,0 +1,51 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    display: grid;
+    place-items: center center;
+    place-content: center center;
+    height: 100vh;
+  }
+  
+  /* Write you code here */
+  
+  .parent{
+    width: 400px;       
+    height: 400px;
+    background-color: #0B0215;
+    color: white;
+   
+  }
+  .circle{
+    background-color: #9acc372f;
+    z-index: 1;
+    height: 100px;width: 100px;
+    position: relative;
+    top: 150px;
+    bottom: 150px;
+    right: 150px;
+    left: 150px;
+    border-radius: 100% 100% 100% 100%;
+    border: 2px solid #9acc37;
+  
+  }
+  .line{
+    border-left: 4px solid #5691db;
+    height: 100px;
+ position: relative;
+ left: 48px;
+ top: -2px;
+  }
+  .tri{
+    height: 0px;
+    width:100px;
+    border-bottom: 2px solid #f70303;
+    border-top: opx solid #f70303;
+border-left: 50px solid #f70303;
+border-right: 50px solid #f70303;
+  }
+  

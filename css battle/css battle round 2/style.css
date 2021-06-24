@@ -1,0 +1,152 @@
+/* WARNING: Do not edit this part of the code (unless you know what you are doing) */
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    display: grid;
+    place-items: center center;
+    place-content: center center;
+    height: 100vh;
+  }
+  
+  /* Write you code here */
+  
+  .parent{
+    width: 400px;       
+    height: 400px;
+    background-color: #0B0215;
+    color: white;
+  }
+  .bound{
+        width: 390px;height: 390px;
+        border: 4px solid #6a5acd;
+        border-radius: 10px;
+        position: relative;
+        top: 5px;
+        left: 5px;
+  
+    }
+    .base{
+        height: 10px;
+        width: 80%;
+        background-color: #fa8072;
+        position: relative;
+        top:359px;
+        left: 10%;
+        border-radius: 0 0 30px 30px;
+    }
+    .fst{
+      height: 20px;
+      width: 70%;
+      background-color: #fa8072;
+      position: relative;
+      top:325px;
+      left: 15%;
+      
+    }
+    .thin1{
+      height: 5px;
+      width: 70%;
+      background-color: #fa8072;
+      position: relative;
+      top:295px;
+      left: 15%;
+      }
+      .thin2{
+      height: 5px;
+      width: 70%;
+      background-color: #fa8072;
+      position: relative;
+      top:280px;
+      left: 15%;
+      }
+      .floor{
+          height: 20px;
+          width: 70%;
+          background-color: #fa8072;
+          position: relative;
+          top:250px;
+          left: 15%;
+          border-radius: 10px 10px 0 0;
+      }
+      .level{
+          height: 25px;
+          width: 60%;
+          background-color: #fa8072;
+          position: relative;
+          top:200px;
+          left: 20%;
+          
+      }
+      .line{
+          height: 5px;
+      width: 60%;
+      background-color: #fa8072;
+      position: relative;
+      top:165px;
+      left: 20%;
+      }
+      .top{
+          height: 25px;
+          width: 60%;
+          background-color: #fa8072;
+          position: relative;
+          top:130px;
+          left: 20%;
+          border-radius: 10px 10px 0 0;
+      }
+      .container{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          justify-items: center;
+          align-content: center;
+      }
+      .side{
+          height: 40px;
+          width: 10px;
+          background-color: #fa8072;
+          border-radius: 4px  4px 0 0 ;
+          margin: 10px;
+          position: relative;
+          top: 50px;
+      }
+      .mid{
+          height: 60px;
+          width: 10px;
+          background-color: #fa8072;
+          border-radius: 4px  4px 0 0 ;
+          position: relative;
+          top: 40px;
+      }
+      .cont2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          justify-items: center;
+          align-content: center;  
+      }
+  .flame1{
+      height: 25px;
+      width: 10px;
+      background-color: #fa8072;
+      position: relative;
+      top:-35px;
+     
+    margin:5px;
+     border-radius: 10% 60% 40% 40%;
+  }
+  .flame2{
+    height: 25px;
+      width: 10px;
+      background-color: #fa8072;
+      position: relative;
+      top:-55px;
+     
+    margin:4px;
+    border-radius: 10% 60% 40% 40%;
+     
+  }

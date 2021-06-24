@@ -1,0 +1,65 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    display: grid;
+    place-items: center center;
+    place-content: center center;
+    height: 100vh;
+  }
+  
+  /* Write you code here */
+  
+  .parent{
+    width: 400px;       
+    height: 400px;
+    background-color: #0B0215;
+    color: white;
+  }
+  .pink{
+height: 300px;width: 300px;
+background-color: #f766ae;
+z-index: 1;
+
+position: relative;
+top: 50px;
+bottom: 50px;
+left: 50px;
+right: 50px;
+}
+.white{
+    height: 212.13px;width: 212.13px;
+    background-color: #ffe4e1;
+z-index: 2;
+position: relative;
+top:43.935px;
+bottom: 43.935px;
+left: 43.935px;
+right: 43.935px;
+transform:rotate(45deg)
+}
+.pink2{
+    height: 150px;width: 150px;
+    background-color: #f766ae;
+z-index: 3;
+position: relative;
+top:31.005px;
+bottom: 31.065px;
+left:31.065px;
+right: 31.065px;
+transform: rotate(45deg);
+}
+.white2{
+height: 106.06px;width: 106.06px;
+background-color: #ffe4e1;
+z-index: 4;
+position: relative;
+top:21.97px;
+bottom: 21.97px;
+left:21.97px;
+right: 21.97px;
+transform: rotate(45deg);
+}

@@ -1,0 +1,99 @@
+.bar{
+    padding: 1.5vw;
+    margin: .5vw;
+    background-color: rosybrown;
+    border: .2vw solid rgb(0, 0, 0);
+    border-radius: 6vw;
+    font-size: 22px;
+    text-align:center;
+    position: relative;
+    left: 2vw;
+    
+    font-weight: 500;
+
+}
+.head{
+    position: sticky;
+    top: 20px;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.pad{
+    padding: 2.5vw;
+    margin: 3vw;
+    text-decoration: none;
+    color: white;
+}
+    .signin{
+        background-color: rosybrown;
+        padding: 2em;
+        margin: 3em 25vw;
+        border: 2px solid black;
+        border-radius: 2vw;
+        text-decoration: none;
+        width: 40vw;
+        color: white;
+        
+    }
+    .signin input{
+        display: block;
+        margin: 8px 0;
+        padding: 1em;
+    }
+  .signin button{
+      text-decoration:none;
+      display: inline;
+      padding: 5px;
+      margin: 5px;
+  }
+  .signin button a{
+      text-decoration: none;
+      color: black;
+  }
+  .blo{
+      display: block;
+      font-size: 18px;
+  }
+  .foot{
+    margin: 5px 30%;
+    text-align: center;
+    width: 40%;
+    background-color: rosybrown;
+    border: .2vw solid rgb(0, 0, 0);
+}
+.logo{
+    width: 110px;
+    height: 150px;
+    /* margin: 3em 4em; */
+    align-self: center;
+    margin-right: 7em;
+    margin-bottom:70px;
+}
+.add{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+    background-color:rosybrown;
+    width: 50%; 
+    font-size: 16px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .signup{
+        border: .2vw solid black;
+    padding: 15px;
+    background-color: rosybrown;
+    border-radius: 2vw;
+    width: fit-content;
+   margin: 0 48%;
+   }
+    marquee{
+        text-decoration: none;
+       background-color: rosybrown;
+       border: .2vw solid rgb(0, 0, 0);
+        }
