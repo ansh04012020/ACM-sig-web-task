@@ -1,0 +1,76 @@
+.head{
+    position: sticky relative;
+   
+    top: 20px;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.bar{
+    padding: 1.5vw;
+    margin: .5vw;
+    background-color: rosybrown;
+    border: .2vw solid rgb(0, 0, 0);
+    border-radius: 6vw;
+    font-size: 22px;
+    text-align:center;
+    font-weight: 500;
+    position: relative;
+    left: 2vw;
+
+}
+.pad{
+    padding: 2.5vw;
+    margin: 3vw;
+    text-decoration: none;
+    color: white;
+}
+.main{
+    margin: 8vw;
+      border: .2vw solid black;
+      padding: 2vw;
+      background-color: rgb(255, 255, 255);
+      border-radius: 2vw;
+      width: 80%;
+      
+      font-size: 1.5vw;
+      display: inline-block;
+  }
+  .foot{
+        
+    background-color: rosybrown;
+    border: .2vw solid rgb(0, 0, 0);
+    margin: 5px 30%;
+    text-align: center;
+    width: 40%;
+}
+.add{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+    background-color: rosybrown;
+    width: 50%; 
+    font-size: 16px;}
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    .disp{
+        display: block;
+        padding: .5vw;
+        margin: .2vw;
+    }
+    marquee{
+        text-decoration: none;
+       background-color: rosybrown;
+       border: .2vw solid rgb(0, 0, 0);
+        }
+        .top{background-color: rosybrown;
+            border-radius: 2vw;
+            border: .2vw solid black;
+           margin: 0 40%;
+           align-items: center;
+           text-align: center;
+        }

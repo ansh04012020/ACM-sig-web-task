@@ -1,0 +1,87 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+background-color: antiquewhite;
+display: grid;
+grid-template-columns: repeat(10, 1fr);
+grid-template-rows: repeat(10,1fr);
+}   
+
+
+a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+grid-row: 1/2;
+grid-column: 2/span 8;
+}
+nav{
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-row: 1/2;
+    grid-column: 1/-1;
+    box-sizing : border-box;
+    background-color:rosybrown;
+    border-radius: 6vw;
+    width: 90vw;
+    border: 0.2vw solid black;
+}
+h1{
+    grid-row: 2/3;
+    grid-column:5/7;
+}
+.Blitz{
+    grid-row: 3/6; 
+    grid-column: 8/10;
+}
+.Bug{ 
+    grid-row: 3/6; 
+    grid-column: 2/4;
+}
+
+.Check3{ 
+    grid-row:3/6; 
+    grid-column: 5/7;
+}
+
+
+.Bullet{
+ 
+    grid-row:7/10; 
+    grid-column: 2/4;
+}
+.Chess960{
+    grid-row:7/10; 
+    grid-column: 5/7;
+}
+
+.fogofwar{
+    grid-row: 7/10; 
+    grid-column: 8/10;
+}
+
+.par{
+    text-align: center;
+    padding: 1em;
+    background-color: #ffffff;
+    border-radius: 2vw;
+    border: .2vw solid black;
+}
+.foot{
+    grid-row:10/11; 
+    grid-column: 3/9;
+    background-color: rosybrown;
+    border: .2vw solid rgb(0, 0, 0);
+    margin-top: 5px;
+    text-align: center;
+    align-self: center;
+}
+@media (max-width:960px){
+    .par{
+        overflow-y: scroll;
+    }
+}
